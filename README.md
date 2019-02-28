@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=logo.jpg/>
+</p>
+
 ## Cleanup on aisle 5: PEP8ify
 For this assessment, you'll be cleaning up a program that functions properly,
 but doesn't conform to the [PEP8](https://www.python.org/dev/peps/pep-0008/)
@@ -39,3 +43,6 @@ $ python -m unittest discover
 5. From your own Github repo, create a pull request (PR) from your `dev` branch back to your own master.
 6. Copy/Paste the URL **link to your PR** as your assignment submission.
 7. Your grader will post code review comments inline with your code, in your github account. Be sure to respond to any comments and make requested changes. **RESUBMIT** a new link to your PR after making changes.  This is the code review iteration cycle.
+
+#### Hints
+autopep8 —> activate from command palette in vscode; format linter; will want to break long lines oddly, so piero can give hints for breaking up long lines of text 
